@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css" defer>
+    <script src="assets/script.js" defer></script>
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastre-se</h1>
+        <form action="#" class="form" onsubmit="submit();return false">
+            <label for="nome" class="label">Nome:</label>
+            <input type="text" class="cadastro" id="nome" placeholder="Insira seu nome">
+
+            <label for="email" class="label">E-mail:</label>
+            <input type="email" class="cadastro" id="email" placeholder="nome@nome.com">
+
+            <label for="password" class="label">Senha:</label>
+            <input type="password" class="cadastro" id="senha" placeholder="Insira a senha">
+
+            <label for="telefone" class="label">Tel:</label>
+            <input type="tel" name="telefone" id="telefone" id="tel" class="cadastro" placeholder="(00)00000-0000">
+
+            <label for="nascimento" class="label">Data de Nascimento:</label>
+            <input type="date" name="nascimento" class="cadastro" id="nasc">
+
+            <section class="cadastrar">
+                <button class="submit">Cadastrar</button>
+                <button class="submit">Cancelar</button>
+            </section>
+        </form>
+    </div>
+    <footer>
+        <p>Desenvolvido por: </p><a href="https://github.com/OseiasOlimpio?tab=repositories" target="_blank">@OseiasOlimpio</a>
+    </footer>
+</body>
+</html>
